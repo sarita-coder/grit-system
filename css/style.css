@@ -1,0 +1,35 @@
+/* Inserta tu codigo aqui */
+header {
+	background: black;
+}
+.logo img {
+	width: 70px;
+
+} 
+.navegador nav {
+	margin: 20px;
+	color: white;
+}
+.navegador nav ul li {
+	list-style: none;
+	display: inline-block;
+}	
+.navegador nav ul li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	margin: 20px 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+article {
+	background: yellow;
+	height: #EEEEEE;
+	border-bottom: 1px solid #AAAAAA;
+}
+.fielone .col-3 img {
+	width: 200px;
+}
+
+
+
