@@ -1,4 +1,7 @@
 /* Inserta tu codigo aqui */
+*{
+	font-family: arial;
+}
 header {
 	background: black;
 }
@@ -19,17 +22,66 @@ header {
 	color: white;
 	text-decoration: none;
 	margin: 20px 10px;
-	font-family: sans-serif;
+	font-family: Arial;
 	font-size: 15px;
 }
-article {
-	background: yellow;
+section  {
+	background: #eeeeee;
 	height: #EEEEEE;
 	border-bottom: 1px solid #AAAAAA;
 }
-.fielone .col-3 img {
+a {text-decoration: none;
+	font-family: Arial;
+	color: #336699;
+}
+.field1  a h5{
+	display: inline-block;
+	margin: 20px 0px;
+
+}
+.field1 h1{
+	display:inline-block;
+	margin: 20px 5px 20px  10px ;
+	font-family: sans-serif;
+}
+.f1 .col-3 img {
 	width: 200px;
+	margin: 10px 10px 5px;
+}
+.f1 .col-3 {
+	text-align: center;
+		margin-bottom: 20px;
 }
 
+.f1 .col-3 a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial;
+}
+.field2-photo {
+	margin-top:20px;
+}
+.field2-photo .col-2 img {
+	width: 110px;
+	height: 110px;
+	padding: 2px;
+	border: 1px solid #d3d2d1;
 
+}
+.field2-photo .col-2 {
+	text-align: center;
+	font-size: 13px;
+	margin-bottom: 20px;
+	padding: 2px;
+}
+.field-photo .col-2 a{
+	width: 70px;
+}
+.field2complete .col-3 a{
+	display: inline-block;
 
+}
+.field2complete .col-3 a img{
+	width:10px;
+	height:10px;
+}
